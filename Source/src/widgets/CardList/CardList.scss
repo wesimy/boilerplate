@@ -1,0 +1,64 @@
+@import "../../theme/_index";
+
+.widget-card-list {
+  .wg-content {
+    .uk-card {
+      cursor: pointer;
+      &:hover {
+        img {
+          transform: scale(1.1) translate(-46%, -46%);
+        }
+        .uk-card-body {
+          .card-body-content {
+            a {
+              color: $secondary;
+            }
+          }
+        }
+      }
+      .uk-cover-container {
+        display: block;
+        img {
+          @include transition(all 0.6s);
+        }
+        .tile-badge {
+          border-top-right-radius: 0;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+      }
+      .uk-card-body {
+        padding-left: 0;
+        padding-right: 0;
+        .card-body-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 15px;
+          .tile-date {
+            @include font-size($lg-font);
+            @include md {
+              @include font-size($md-font);
+            }
+            @include lg {
+              @include font-size($sm-font);
+            }
+            span {
+              opacity: 0.37;
+            }
+          }
+        }
+        .card-body-content {
+          font-weight: bold;
+          a {
+            transition: all 0.6s;
+            text-decoration: none;
+            &:hover{
+              color: $secondary;
+            }
+          }
+        }
+      }
+    }
+  }
+}

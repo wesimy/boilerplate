@@ -1,0 +1,84 @@
+$breakpoints: (
+  xs: 0,
+  sm: 640px,
+  md: 960px,
+  lg: 1200px,
+  xl: 1600px
+);
+/////////////////
+// Fonts
+////////////////
+
+$xxxxl-font: (
+  null: 40px,
+  xs: 40px,
+  md: 56px,
+  lg: 80px
+);
+$xxxl-font: (
+  null: 32px,
+  xs: 32px,
+  md: 40px,
+  lg: 56px
+);
+$xxl-font: (
+  null: 24px,
+  xs: 24px,
+  md: 32px,
+  lg: 40px
+);
+$xl-font: (
+  null: 16px,
+  xs: 16px,
+  md: 24px,
+  lg: 32px
+);
+$lg-font: (
+  null: 14px,
+  xs: 14px,
+  md: 16px,
+  lg: 24px
+);
+$md-font: (
+  null: 12px,
+  xs: 12px,
+  md: 14px,
+  lg: 16px
+);
+$sm-font: (
+  null: 12px,
+  xs: 12px,
+  md: 12px,
+  lg: 14px
+);
+$xs-font: (
+  null: 11px,
+  xs: 11px,
+  md: 11px,
+  lg: 12px
+);
+$xxs-font: (
+  null: 11px,
+  xs: 11px,
+  md: 11px,
+  lg: 10px
+);
+
+/////////////////
+// Colors
+////////////////
+$black: #242116;
+$text: #3f3f3f;
+$brand: #33946d;
+$primary: #ffdc2e;
+$secondary: #139ce7;
+$mute: #e3e3e3;
+$white: #ffffff;
+$alert: #f85359;
+$success: #409d73;
+
+
+$font-en: "OpenSans", sans-serif;
+$font-ar: "Cairo", sans-serif;
+$font-ar-quote: "Amiri", serif;
+$font-en-quote: "Amiri", serif;

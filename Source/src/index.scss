@@ -1,0 +1,32 @@
+@import "./theme/index";
+@import "./tiles/index";
+@import "./components/index";
+@import "./widgets/index";
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -ltr-font-family: $font-en;
+  -rtl-font-family: $font-ar;
+
+  * {
+    -ltr-font-family: $font-en;
+    -rtl-font-family: $font-ar;
+  }
+}
+
+body {
+  opacity: 0;
+  @include transition(0.3s ease-in-out);
+  &.loaded {
+    opacity: 1;
+  } //-rtl-background: red;
+}
+
+.text-lang{
+  -rtl-font-family: $font-en;
+  -ltr-font-family: $font-ar;
+}

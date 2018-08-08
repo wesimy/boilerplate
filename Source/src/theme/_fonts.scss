@@ -1,0 +1,94 @@
+
+
+//Font Cairo
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans/OpenSans.eot");
+  src: url("./assets/fonts/OpenSans/OpenSans.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/OpenSans/OpenSans.woff") format("woff"),
+    url("./assets/fonts/OpenSans/OpenSans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Bold.eot");
+  src: url("./assets/fonts/OpenSans/OpenSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
+    url("./assets/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Light.eot");
+  src: url("./assets/fonts/OpenSans/OpenSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/OpenSans/OpenSans-Light.woff") format("woff"),
+    url("./assets/fonts/OpenSans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+//Font Cairo
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/fonts/Cairo/Cairo-Regular.eot");
+    src: url("./assets/fonts/Cairo/Cairo-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Cairo/Cairo-Regular.woff") format("woff"),
+      url("./assets/fonts/Cairo/Cairo-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face { 
+    font-family: "Cairo";
+    src: url("./assets/fonts/Cairo/Cairo-Bold.eot");
+    src: url("./assets/fonts/Cairo/Cairo-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Cairo/Cairo-Bold.woff") format("woff"),
+      url("./assets/fonts/Cairo/Cairo-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Cairo";
+    src: url("./assets/fonts/Cairo/Cairo-Light.eot");
+    src: url("./assets/fonts/Cairo/Cairo-Light.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Cairo/Cairo-Light.woff") format("woff"),
+      url("./assets/fonts/Cairo/Cairo-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  //Font Amiri - for quotes
+  @font-face {
+    font-family: "Amiri";
+    src: url("./assets/fonts/Amiri/Amiri-Regular.eot");
+    src: url("./assets/fonts/Amiri/Amiri-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Amiri/Amiri-Regular.woff") format("woff"),
+      url("./assets/fonts/Amiri/Amiri-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Amiri";
+    src: url("./assets/fonts/Amiri/Amiri-Bold.eot");
+    src: url("./assets/fonts/Amiri/Amiri-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("./assets/fonts/Amiri/Amiri-Bold.woff") format("woff"),
+      url("./assets/fonts/Amiri/Amiri-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
